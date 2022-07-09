@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "typeRoots" : ["node_modules/@types", "custom.d.ts"],
+
     "lib": [
       "dom",
       "dom.iterable",
@@ -21,6 +23,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src/components/**/*.tsx","src/custom.d.ts"
+    "src/components/**/*.tsx","src/components/**/*.ts","custom.d.ts"
   ]
 }
